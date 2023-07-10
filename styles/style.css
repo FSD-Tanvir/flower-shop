@@ -1,0 +1,84 @@
+/*==================================
+
+Template Name: Flower Shop
+Author: Tanvir
+Author URI: 
+Version: 1.0
+Description: An awesome template.
+Support: tanvirfsd1@gmail.com
+
+==================================*/
+
+/*==================================
+
+CSS INDEX
+---------
+1. Common CSS
+2. Header Section
+3. Banner Section
+
+==================================*/
+
+/*==================================
+
+1. Common CSS 
+
+==================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary{
+    padding: 18px 40px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    margin-top: 32px;
+}
+
+/*==================================
+
+2. Header Section
+
+==================================*/
+
+.header{
+    background: rgba(229, 84, 115, 0.10);
+    height: 100vh;
+}
+
+/*==================================
+
+2. Banner Section
+
+==================================*/
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px 0px 200px;
+    gap: 80px;
+}
+
+.banner-title{
+    color: #272727;
+    font-size: 50px;
+}
+
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 32px;
+}
+
+.banner-img{
+    width: 500px;
+    height: 600px;
+}
