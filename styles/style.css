@@ -17,6 +17,8 @@ CSS INDEX
 2. Header Section
 3. Banner Section
 4. Featured Section
+5. Advantage Section
+6. Hot Deal Section
 
 ==================================*/
 
@@ -75,15 +77,14 @@ CSS INDEX
 
 .banner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 50px 200px 0px 200px;
-    gap: 80px;
+    padding: 100px 200px 0px 200px;
 }
 
 .banner-title{
     color: #272727;
-    font-size: 45px;
+    font-size: 65px;
 }
 
 .banner-description{
@@ -94,8 +95,8 @@ CSS INDEX
 }
 
 .banner-img{
-    width: 500px;
-    height: 620px;
+    width: 460px;
+    height: 480px;
 }
 
 /*==================================
@@ -105,8 +106,8 @@ CSS INDEX
 ==================================*/
 
 .main{
-    max-width: 1140px;
-    margin: 0 auto;
+    /* max-width: 1140px; */
+    /* margin: 0 auto; */
 }
 
 /*==================================
@@ -116,7 +117,8 @@ CSS INDEX
 ==================================*/
 
 .featured{
-    margin-top: 128px;
+    max-width: 1140px;
+    margin: 110px auto;
 }
 
 .featured-images{
@@ -172,12 +174,13 @@ CSS INDEX
 
 .advantages{
     display: flex;
-    justify-content: space-between;
-    margin-top: 128px;
+    justify-content: space-around;
     align-items: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     padding: 85px 175px;
+    max-width: 1140px;
+    margin: 0px auto;
 }
 
 .advantage{
@@ -190,4 +193,29 @@ CSS INDEX
     font-weight: 600;
     line-height: 35px;
     margin-top: 5px;
+}
+
+/*==================================
+
+6. Hot Deal Section
+
+==================================*/
+
+.hot-deal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 120px 400px;
+    margin: 80px 0px;
+    gap: 100px;
+}
+
+.hot-deal-info{
+    text-align: center;
+}
+
+.hot-deal-info span{
+    color: #E55473;
 }
