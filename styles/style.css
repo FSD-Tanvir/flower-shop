@@ -16,6 +16,7 @@ CSS INDEX
 1. Common CSS
 2. Header Section
 3. Banner Section
+4. Featured Section
 
 ==================================*/
 
@@ -39,6 +40,21 @@ CSS INDEX
     border: none;
     color: #FFF;
     margin-top: 32px;
+}
+
+.title-primary{
+    color: #272727;
+    text-align: center;
+    font-size: 40px; 
+}
+
+.description-primary{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    width: 480px;
+    margin: 24px auto 0 auto;
 }
 
 /*==================================
@@ -80,5 +96,71 @@ CSS INDEX
 
 .banner-img{
     width: 500px;
-    height: 600px;
+    height: 620px;
+}
+
+/*==================================
+
+3. Main Section
+
+==================================*/
+
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*==================================
+
+4. Featured Section
+
+==================================*/
+
+.featured{
+    margin-top: 128px;
+}
+
+.featured-images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-img-box{
+    text-align: center;
+    margin-top: 48px;
+}
+
+.featured-img-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 70px 0px 70px;
+    width: 220px;
+    height: 300px;
+}
+
+.featured-img-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 100px 70px 0px 70px;
+    width: 220px;
+    height: 300px;
+}
+
+.featured-img-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 100px 70px 0px 70px;
+    width: 220px;
+    height: 300px;
+}
+
+
+
+.featured-images p{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 32px;
+    text-decoration-line: underline;
 }
