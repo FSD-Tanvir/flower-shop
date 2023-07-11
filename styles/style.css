@@ -142,23 +142,25 @@ span{
 .featured-img-1{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: 100px 70px 0px 70px;
+    padding: 100px 50px 0px 50px;
     width: 220px;
     height: 300px;
+    margin-right: 5px;
 }
 
 .featured-img-2{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding: 100px 70px 0px 70px;
+    padding: 100px 50px 0px 50px;
     width: 220px;
     height: 300px;
+    margin-right: 5px;
 }
 
 .featured-img-3{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    padding: 100px 70px 0px 70px;
+    padding: 100px 50px 0px 50px;
     width: 220px;
     height: 300px;
 }
@@ -277,6 +279,7 @@ ul li:before {
 .insta-image img{
     width: 280px;
     height: 320px;
+    margin-right: 5px;
 }
 
 /*==================================
