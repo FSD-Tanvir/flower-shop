@@ -18,8 +18,11 @@ CSS INDEX
 3. Banner Section
 4. Featured Section
 5. Advantage Section
-6. Hot Deal Section
-7. Instagram Section
+6. Why Flower Section
+7. Hot Deal Section
+8. Instagram Section
+9. Subscribe Section
+10.Footer Section
 
 ==================================*/
 
@@ -39,7 +42,7 @@ CSS INDEX
 .btn-primary{
     padding: 18px 40px;
     border-radius: 8px;
-    background: #E55473;
+    background: #e55473;
     border: none;
     color: #FFF;
     margin-top: 32px;
@@ -202,7 +205,40 @@ span{
 
 /*==================================
 
-6. Hot Deal Section
+6. Why Flower Section
+
+==================================*/
+
+.why-flower{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1140px;
+    margin: 110px auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+ul li{
+    font-size: 20px;
+    line-height: 36px;
+}  
+
+ul li:before {
+    content: '✓';
+    padding-right: 10px;
+    color: #e55473;
+    font-size: 30px;
+}
+
+/*==================================
+
+7. Hot Deal Section
 
 ==================================*/
 
@@ -223,7 +259,7 @@ span{
 
 /*==================================
 
-7. Instagram Section
+8. Instagram Section
 
 ==================================*/
 
@@ -245,7 +281,7 @@ span{
 
 /*==================================
 
-8. Subscribe Section
+9. Subscribe Section
 
 ==================================*/
 
@@ -269,7 +305,7 @@ input{
 
 /*==================================
 
-9. Footer Section
+10. Footer Section
 
 ==================================*/
 
@@ -295,4 +331,6 @@ input{
 .copyright{
     margin-top: 20px;
 }
+
+
 
