@@ -188,7 +188,7 @@ span{
     align-items: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    padding: 85px 175px;
+    padding: 85px 0px;
     max-width: 1140px;
     margin: 0px auto;
 }
