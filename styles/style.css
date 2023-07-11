@@ -55,9 +55,13 @@ CSS INDEX
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 18px;
     width: 480px;
-    margin: 24px auto 0 auto;
+    margin: 20px auto 0 auto;
+}
+
+span{
+    color: #E55473;
 }
 
 /*==================================
@@ -106,10 +110,10 @@ CSS INDEX
 
 ==================================*/
 
-.main{
-    /* max-width: 1140px; */
-    /* margin: 0 auto; */
-}
+/* .main{
+    max-width: 1140px;
+    margin: 0 auto; 
+}  */
 
 /*==================================
 
@@ -215,11 +219,7 @@ CSS INDEX
 
 .hot-deal-info{
     text-align: center;
-}
-
-.hot-deal-info span{
-    color: #E55473;
-}
+} 
 
 /*==================================
 
@@ -242,3 +242,57 @@ CSS INDEX
     width: 280px;
     height: 320px;
 }
+
+/*==================================
+
+8. Subscribe Section
+
+==================================*/
+
+.subscribe{
+    max-width: 1140px;
+    margin: 110px auto;
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    padding: 120px 0px; 
+    text-align: center;
+}
+
+input[type="email"]{
+    padding: 18px 240px 18px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+input{
+    margin-top: 20px;
+}
+
+/*==================================
+
+9. Footer Section
+
+==================================*/
+
+.footer{
+    background: #111010;
+    color: #ffffff;
+    text-align: center;
+    padding: 120px 0px;
+}
+
+.footer-title{
+    font-size: 48px;
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 480px;
+    margin: 10px auto;
+}
+
+.copyright{
+    margin-top: 20px;
+}
+
