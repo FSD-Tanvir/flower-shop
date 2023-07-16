@@ -1,0 +1,36 @@
+@media screen and (max-width:992px) {
+    .banner-title{
+        font-size: 36px;
+    }
+    .banner{
+        padding: 4rem 1rem 0 1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner,
+    .why-flower,
+    .hot-deal-container{
+        flex-direction: column;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner{
+        padding: 4rem 3rem 0 3rem;
+    }
+}
+    .banner-img{
+        width: 278px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .description-primary{
+        width: fit-content;
+    }
+    input[type="email"]{
+        padding: 18px 80px 18px 20px;
+    }
+}
